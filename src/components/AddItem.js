@@ -9,7 +9,7 @@ class AddItem extends Component {
     render() {
         return(
             <div>
-                <input style={{width: '83%',
+                <input style={{width: '91%',
                 display: 'inline-block',
                 marginLeft: '20px', padding: '10px'}} type="text" placeholder="Add todo items"
                 value={this.state.title}
